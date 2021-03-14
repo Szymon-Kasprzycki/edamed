@@ -69,7 +69,7 @@ div.logoborder {
     color: #000;
     transition: 0.35s ease-in-out;
     color: white;
-    -webkit-text-stroke: 1.4px black;
+    -webkit-text-stroke: 1px #023e8a;
 }
 
 .menu-close {
@@ -81,7 +81,7 @@ div.logoborder {
     color: #fff;
     transition: 0.35s ease-in-out;
     color: white;
-    -webkit-text-stroke: 1.4px black;
+    -webkit-text-stroke: 1px #023e8a;
 }
 
 .menu-close:hover, .menu-toggle:hover {
@@ -155,16 +155,16 @@ nav a:hover {
     text-align: center;
     font-weight: 600;
     padding-top: 70px;
-    color: white;
-    -webkit-text-stroke: 1.4px black;
+    color: #023e8a;
+    -webkit-text-stroke: .6px black;
 }
 
 .header-contact span, .header-contact a {
     font-size: 3rem;
     line-height: 3;
     font-weight: bolder;
-    color: white;
-    -webkit-text-stroke: 1.4px black;
+    color: #023e8a;
+    -webkit-text-stroke: 1px black;
 }
 
 .header-contact a {
