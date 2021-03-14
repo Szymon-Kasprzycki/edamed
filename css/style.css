@@ -139,21 +139,24 @@ nav a:hover {
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
-    background-image: url(../img/header-bg-1.jpg);
+    background-image: url(../img/header.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .header-contact p {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     width: 100%;
     text-align: center;
+    font-weight: 600;
+    padding-top: 70px;
 }
 
 .header-contact span, .header-contact a {
-    font-size: 2.4rem;
+    font-size: 3rem;
     line-height: 3;
+    font-weight: bolder;
 }
 
 .header-contact a {
