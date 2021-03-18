@@ -1,0 +1,124 @@
+body {
+    min-height: 100vh;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label {
+    padding: 20px 20px 5px 20px;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+input {
+    width: 250px;
+    height: 35px;
+    padding: 10px 5px;
+    font-size: 1.7rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type=submit] {
+    margin: 30px;
+    width: 100px;
+    height: 50px;
+}
+
+input[type=email] {
+    width: 290px;
+}
+
+textarea {
+    width: 80%;
+    height: 200px;
+    padding: 8px;
+    font-size: 1.7rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.3;
+}
+
+
+@media (orientation: portrait) and (min-width: 767px) {
+    label {
+        font-size: 3rem;
+        padding: 30px 20px 8px 20px;
+    }
+
+    textarea {
+        width: 70%;
+        height: 210px;
+        font-size: 2.2rem;
+    }
+
+    input {
+        width: 360px;
+        height: 45px;
+        font-size: 2.2rem;
+    }
+
+    input[type=submit] {
+        width: 170px;
+        height: 70px;
+    }
+
+    input[type=email] {
+        width: 400px;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 1023px) {
+    label {
+        font-size: 4.5rem;
+        padding: 30px 20px 10px 20px;
+    }
+
+    textarea {
+        height: 300px;
+        font-size: 3rem;
+    }
+
+    input {
+        width: 500px;
+        height: 60px;
+        font-size: 3rem;
+    }
+
+    input[type=email] {
+        width: 580px;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 639px) {
+    input[type=email] {
+        width: 380px;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 1200px) {
+    input {
+        height: 45px;
+        font-size: 2rem;
+        width: 350px;
+    }
+
+    input[type=email] {
+        width: 490px;
+    }
+
+    textarea {
+        font-size: 2rem;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 1400px) {
+    textarea {
+        width: 50%;
+        height: 350px;
+    }
+}

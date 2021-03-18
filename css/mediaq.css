@@ -183,6 +183,25 @@
     footer a {
         font-size: 1.8rem;
     }
+
+    h2.contact {
+        font-size: 4rem;
+    }
+    
+    p.contact {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    
+    p.contact:nth-of-type(5), p.contact:nth-of-type(1) {
+        font-weight: bold;
+    }
+    
+    a.contact {
+        font-size: 2.5rem;
+        padding-left: 5px;
+        text-align: center;
+    }
 }
 
 @media (orientation: portrait) and (min-width: 1023px) {
@@ -310,6 +329,36 @@
 
     footer a {
         font-size: 2.3rem;
+    }
+
+    h2.contact {
+        font-size: 5rem;
+    }
+    
+    p.contact {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    
+    p.contact:nth-of-type(5), p.contact:nth-of-type(1) {
+        font-weight: bold;
+    }
+    
+    a.contact {
+        font-size: 3.5rem;
+        padding-left: 5px;
+        text-align: center;
+    }
+}
+
+@media (orientation: landscape) {
+    p.contact {
+        text-align: center;
+    }
+    
+    a.contact {
+        text-align: center;
+        padding-left: 5px;
     }
 }
 
@@ -546,11 +595,24 @@
     footer a {
         font-size: 1.9rem;
     }
+
+    h2.contact {
+        font-size: 5rem;
+    }
+    
+    p.contact {
+        font-size: 3.5rem;
+    }
+    
+    a.contact {
+        font-size: 3.5rem;
+    }
 }
 
 @media (orientation: landscape) and (min-width: 1600px) {
     .header-contact {
         height: 800px;
+        background-image: url(../img/bgb.jpg);
     }
 
     main section.welcome div.features {
