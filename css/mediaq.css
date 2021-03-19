@@ -202,6 +202,32 @@
         padding-left: 5px;
         text-align: center;
     }
+
+    ul.about {
+        padding: 5px 15px;
+    }
+
+    ul.about li {
+        font-size: 2rem;
+    }
+    
+    p.about {
+        padding: 10px 25px;
+        font-size: 2rem;
+    }
+    
+    span.about {
+        font-size: 2rem;
+        padding: 20px 15px;
+    }
+    
+    p.about:nth-last-child(1) {
+        margin-bottom: 100px;
+    }
+    
+    p.about:nth-child(1) {
+        margin-top: 50px;
+    }
 }
 
 @media (orientation: portrait) and (min-width: 1023px) {
@@ -349,6 +375,32 @@
         padding-left: 5px;
         text-align: center;
     }
+
+    ul.about {
+        padding: 15px 55px;
+    }
+
+    ul.about li {
+        font-size: 3rem;
+    }
+    
+    p.about {
+        padding: 30px 55px;
+        font-size: 3rem;
+    }
+    
+    span.about {
+        font-size: 3.2rem;
+        padding: 30px 15px;
+    }
+    
+    p.about:nth-last-child(1) {
+        margin-bottom: 100px;
+    }
+    
+    p.about:nth-child(1) {
+        margin-top: 50px;
+    }
 }
 
 @media (orientation: landscape) {
@@ -390,7 +442,6 @@
         width: 70px;
         height: 67.433px;
     }
-    
 }
 
 @media (orientation: landscape) and (min-width: 730px) {
@@ -436,11 +487,7 @@
     }
 
     .header-contact .bg span, .header-contact .bg a {
-        font-size: 6em;
-    }
-
-    .header-contact .bg a {
-        padding-left: 25px;
+        font-size: 6rem;
     }
 
     main section.welcome article.welcome {
@@ -454,6 +501,34 @@
 
     main section.welcome article.welcome p {
         font-size: 2.5rem;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 1023px) {
+    ul.about {
+        padding: 15px 55px;
+    }
+
+    ul.about li {
+        font-size: 2rem;
+    }
+    
+    p.about {
+        padding: 15px 55px;
+        font-size: 2rem;
+    }
+    
+    span.about {
+        font-size: 2rem;
+        padding: 15px 15px;
+    }
+    
+    p.about:nth-last-child(1) {
+        margin-bottom: 100px;
+    }
+    
+    p.about:nth-child(1) {
+        margin-top: 50px;
     }
 }
 
@@ -508,6 +583,11 @@
 
     .header-contact {
         width: 100%;
+    }
+
+    .header-contact .bg a {
+        width: 100%;
+        text-align: center;
     }
 
     main section.welcome div.features {
