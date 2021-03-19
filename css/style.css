@@ -42,10 +42,10 @@ header {
 }
 
 div.logoborder {
-    background-color: #fff;
+    background-color: #ccc;
     height: 100px;
     width: 100px;
-    border-radius: 30px;
+    border-radius: 50%;
     text-align: center;
     margin-top: 15px;
     padding: 5px;
@@ -53,6 +53,7 @@ div.logoborder {
 .header_logo img {
     width: 90px;
     height: 86.7px;
+    padding-right: 2px;
 }
 
 .header_logo h1 {
